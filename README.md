@@ -5,7 +5,7 @@ A python tool created for 42 students. Check your python module 00 with it !
 
 ## Usage
 
-To run this program, you first need to clone it.
+To run this program, you first need to clone it **inside your own repo (at root)**.
 
 ```bash
   git clone https://github.com/sousampere/python_module_00_tester.git
