@@ -1,2 +1,40 @@
-# python_module_00_tester
-Tester for 42 students to test their python_module_00
+
+# 42 Python_module_00_tester
+
+A python tool created for 42 students. Check your python module 00 with it !
+
+## Usage
+
+To run this program, you first need to clone it.
+
+```bash
+  git clone https://github.com/sousampere/python_module_00_tester.git
+```
+
+Start it with
+
+```bash
+  python3 ./gtourdia_python_module_00_tester.py
+```
+
+Or, with flags for specific exercises :
+
+```bash
+  python3 ./gtourdia_python_module_00_tester.py --ex0 --ex1 --ex5
+```
+
+## Authors
+
+- [@sousampere](https://github.com/sousampere) Alias gtourdia (42)
+
+
+## 🚀 About Me
+I am a student at the 42 Mulhouse school. Most of my public projects will be from this school, while I will keep private most of my other projects.
+## Contact me !
+
+ - [LinkedIn](https://fr.linkedin.com/in/gaspardtourdiat)
+ - [My website](https://gaspardtourdiat.fr/)
+ - [For 42 students (my intra profile)](https://profile.intra.42.fr/users/gtourdia)
+
+
+![Logo](https://assets.km0.omerloclients.com/community/cfbe5a0b-7637-43a0-94f9-7df2fc288c1d.jpg)
