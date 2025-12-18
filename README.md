@@ -32,7 +32,6 @@ It should look like that :
 ├── ex7
 │   └── ft_seed_inventory.py
 ├── gtourdia_python_module_00_tester.py
-├── python_module_00_tester
 ├── README.md
 ├── test_ex0.py
 ├── test_ex1.py
