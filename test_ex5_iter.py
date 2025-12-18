@@ -1,0 +1,5 @@
+
+from ex5 import ft_count_harvest_iterative
+
+
+ft_count_harvest_iterative.ft_count_harvest_iterative()
