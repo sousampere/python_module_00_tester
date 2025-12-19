@@ -7,6 +7,8 @@ A python tool created for 42 students. Check your python module 00 with it !
 
 To run this program, you first need to clone it **inside your own repo, in its own folder (your_repo/python_module_00_tester)**.
 
+Make sure your python interpreter is in the correct version (`python3 --version`) as the subject requires Python > 3.10. You can manualy change the python binary path inside the Makefile (variable $(PYTHON)) if needed.
+
 ```bash
   git clone https://github.com/sousampere/python_module_00_tester.git
 ```

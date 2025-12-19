@@ -9,35 +9,36 @@ MOVED_FILES=../test_ex0.py ../test_ex1.py ../test_ex2.py\
 		../test_ex5_recurs.py ../test_ex6.py ../test_ex7_area.py\
 		../test_ex7_grams.py ../test_ex7_packets.py\
 		../test_ex7_unknown.py
+PYTHON=python3
 
 all: start
 
 start: move
-	python3 ../gtourdia_python_module_00_tester.python3
+	$(PYTHON) ../gtourdia_python_module_00_tester.py
 
 ex0: move
-	python3 ../gtourdia_python_module_00_tester.python3 --ex0
+	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex0
 
 ex1: move
-	python3 ../gtourdia_python_module_00_tester.python3 --ex1
+	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex1
 
 ex2: move
-	python3 ../gtourdia_python_module_00_tester.python3 --ex2
+	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex2
 
 ex3: move
-	python3 ../gtourdia_python_module_00_tester.python3 --ex3
+	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex3
 
 ex4: move
-	python3 ../gtourdia_python_module_00_tester.python3 --ex4
+	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex4
 
 ex5: move
-	python3 ../gtourdia_python_module_00_tester.python3 --ex5
+	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex5
 
 ex6: move
-	python3 ../gtourdia_python_module_00_tester.python3 --ex6
+	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex6
 
 ex7: move
-	python3 ../gtourdia_python_module_00_tester.python3 --ex7
+	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex7
 
 move:
 	mv $(TEST_FILES) $(MAIN_FILE) ../
