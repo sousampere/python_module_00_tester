@@ -11,34 +11,7 @@ MOVED_FILES=../test_ex0.py ../test_ex1.py ../test_ex2.py\
 		../test_ex7_unknown.py
 PYTHON=python3
 
-all: start
-
-start: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py
-
-ex0: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex0
-
-ex1: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex1
-
-ex2: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex2
-
-ex3: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex3
-
-ex4: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex4
-
-ex5: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex5
-
-ex6: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex6
-
-ex7: move
-	$(PYTHON) ../gtourdia_python_module_00_tester.py --ex7
+all: move
 
 move:
 	mv $(TEST_FILES) $(MAIN_FILE) ../
