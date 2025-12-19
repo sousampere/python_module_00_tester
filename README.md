@@ -13,19 +13,21 @@ Make sure your python interpreter is in the correct version (`python3 --version`
   git clone https://github.com/sousampere/python_module_00_tester.git
 ```
 
-Launch the checker
+Move the checker files next to your directories to check :
 
 ```bash
-  make
+  cd python_module_00_tester
+  make move
 ```
 
-Or, for specific exercises :
-
+Usage :
 ```bash
-  make ex0
+  python3 gtourdia_python_module_00_tester.py
 ```
-
-You can also use directly the python script after doing a `make move` to move the files alongside your ex0, ex1, (...) folders.
+  OR
+```bash
+  python3 gtourdia_python_module_00_tester.py --ex0 --ex1...
+```
 
 ## Authors
 
